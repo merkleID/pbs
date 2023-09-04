@@ -1,7 +1,8 @@
-[proxmox-backup-server]
+[pbs]
 bantime  = 86400
 findtime  = 86400
 maxretry = 1
 enabled = true
 port    = 8007
 logpath = /var/log/proxmox-backup/api/auth.log
+filter = proxmox-backup-server
